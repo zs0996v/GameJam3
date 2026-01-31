@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: 9ce55576989054ba488bcd8bef3ee322
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7341407202210888751
+    second: door_0
+  - first:
+      213: 6623719234781301212
+    second: door_1
+  - first:
+      213: 4744073622485524861
+    second: door_2
+  - first:
+      213: -8810169383252994586
+    second: door_3
+  - first:
+      213: -4935834299494285922
+    second: door_4
+  - first:
+      213: -8064736477851923831
+    second: door_5
+  - first:
+      213: 2506073802342575783
+    second: door_6
+  - first:
+      213: 6444909936247146198
+    second: door_7
+  - first:
+      213: -2080428299324191059
+    second: door_8
+  - first:
+      213: 6408732569623844768
+    second: door_9
+  - first:
+      213: -6866331653268886809
+    second: door_10
+  - first:
+      213: 6872449089210296006
+    second: door_11
+  - first:
+      213: 2271375749325904948
+    second: door_12
+  - first:
+      213: 2003397563310875137
+    second: door_13
+  - first:
+      213: 7822533284659186966
+    second: door_14
+  - first:
+      213: 494946164768802911
+    second: door_15
+  - first:
+      213: 8848759785653878633
+    second: door_16
+  - first:
+      213: 9115018151219889742
+    second: door_17
+  - first:
+      213: -7242933603843216000
+    second: door_18
+  - first:
+      213: -4652313470985623843
+    second: door_19
+  - first:
+      213: -6942379725355745101
+    second: door_20
+  - first:
+      213: 2087700979768605417
+    second: door_21
+  - first:
+      213: -3520281788255752526
+    second: door_22
+  - first:
+      213: 4481501421544167748
+    second: door_23
+  - first:
+      213: -567805578942143161
+    second: door_24
+  - first:
+      213: -8003391106284563351
+    second: door_25
+  - first:
+      213: 2869434960404708997
+    second: door_26
+  - first:
+      213: 5913127013610339572
+    second: door_27
+  - first:
+      213: -7384563364542214630
+    second: door_28
+  - first:
+      213: 9063080140224670573
+    second: door_29
+  - first:
+      213: 9058112607262351545
+    second: door_30
+  - first:
+      213: -7696747160563918852
+    second: door_31
+  - first:
+      213: 1014292779195019108
+    second: door_32
+  - first:
+      213: 7318389781664105081
+    second: door_33
+  - first:
+      213: -3146957422102018927
+    second: door_34
+  - first:
+      213: -3284326922900896578
+    second: door_35
+  - first:
+      213: -7162464134499730791
+    second: door_36
+  - first:
+      213: 5098105065893740907
+    second: door_37
+  - first:
+      213: 344453158334664484
+    second: door_38
+  - first:
+      213: -5174541565617016512
+    second: door_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 130
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Door1
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 264
+        width: 530
+        height: 548
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d3c9b8cb051e1a90800000000000000
+      internalID: -7341407202210888751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door2
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 257
+        width: 267
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd9cf01dc8d2ceb50800000000000000
+      internalID: 6623719234781301212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e3c6b9474b07d42069643a1a989249ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Door1: -7341407202210888751
+      Door2: 6623719234781301212
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
