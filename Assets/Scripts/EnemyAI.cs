@@ -11,6 +11,7 @@ public class EnemyAI : MonoBehaviour
 
     float nextShootTime;
     Transform player;
+    Mask playerMask;
 
     public Vector2 enemyHalfSize = new Vector2(0.5f, 0.5f);
 
@@ -18,12 +19,16 @@ public class EnemyAI : MonoBehaviour
     {
         GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
         if (playerObj != null)
+        {
             player = playerObj.transform;
+            playerMask = playerObj.GetComponent<Mask>();
+        }
     }
 
     void Update()
     {
         if (player == null) return;
+        if (playerMask != null && playerMask.IsInvisible) return;
 
         Vector2 direction = (player.position - transform.position);
         float distance = direction.magnitude;
