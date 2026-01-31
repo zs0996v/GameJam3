@@ -60,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 160
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -174,15 +174,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Characters_0
+      name: No MaskC
       rect:
         serializedVersion: 2
-        x: 7
-        y: 0
-        width: 469
-        height: 691
+        x: 203
+        y: 216
+        width: 176
+        height: 238
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -196,15 +196,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Characters_1
+      name: MaskC
       rect:
         serializedVersion: 2
-        x: 421
-        y: 160
-        width: 198
-        height: 333
+        x: 429
+        y: 215
+        width: 184
+        height: 241
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -218,15 +218,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Characters_2
+      name: Police
       rect:
         serializedVersion: 2
-        x: 561
-        y: 0
-        width: 420
-        height: 692
+        x: 661
+        y: 217
+        width: 183
+        height: 252
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,33 +239,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Characters_3
-      rect:
-        serializedVersion: 2
-        x: 802
-        y: 196
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4bbc38b93fdcbc000800000000000000
-      internalID: 57365866442116020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 322f31d56787f4356874718816ee746f
     internalID: 0
     vertices: []
     indices: 
@@ -275,10 +253,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Characters_0: 3542127132570728493
-      Characters_1: -1960546628078278901
-      Characters_2: 8248543377919322394
       Characters_3: 57365866442116020
+      MaskC: -1960546628078278901
+      No MaskC: 3542127132570728493
+      Police: 8248543377919322394
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
