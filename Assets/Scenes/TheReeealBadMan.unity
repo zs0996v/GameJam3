@@ -637,6 +637,7 @@ GameObject:
   - component: {fileID: 605889040}
   - component: {fileID: 605889039}
   - component: {fileID: 605889041}
+  - component: {fileID: 605889042}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -843,6 +844,23 @@ MonoBehaviour:
   normalSprite: {fileID: 3542127132570728493, guid: d4a6d208d122fa94582ea45986c6f238, type: 3}
   maskedSprite: {fileID: -1960546628078278901, guid: d4a6d208d122fa94582ea45986c6f238, type: 3}
   invisibleColor: {r: 1, g: 1, b: 1, a: 0.5}
+--- !u!114 &605889042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 605889033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d96e36c73b3844b45b505e5eff62daf0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 762382954234996413, guid: c9122c51a35b940e484cd139613522db, type: 3}
+  bulletSpeed: 12
+  bulletLifeTime: 2
+  bulletHitRadius: 0.15
+  fireRate: 0.25
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1665,7 +1683,7 @@ GameObject:
   - component: {fileID: 1765861244}
   m_Layer: 0
   m_Name: Enemy
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
