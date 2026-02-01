@@ -6,6 +6,7 @@ public class Mask : MonoBehaviour
     public Sprite normalSprite;
     public Sprite maskedSprite;
     public Color invisibleColor = new Color(1f, 1f, 1f, 0.5f);
+    public AudioClip maskSound;
 
     public bool IsInvisible { get; private set; }
 
@@ -28,9 +29,7 @@ public class Mask : MonoBehaviour
         timer -= Time.deltaTime;
 
         if (timer <= 0f)
-        {
             DisableInvisibility();
-        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -38,6 +37,10 @@ public class Mask : MonoBehaviour
         if (other.CompareTag("Mask"))
         {
             EnableInvisibility();
+
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayMask(maskSound);
+
             Destroy(other.gameObject);
         }
     }

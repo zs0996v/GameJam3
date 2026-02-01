@@ -3,6 +3,7 @@ using UnityEngine;
 public class KeyPickup : MonoBehaviour
 {
     public int keyID;
+    public AudioClip keySound;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -12,6 +13,10 @@ public class KeyPickup : MonoBehaviour
         if (inventory == null) return;
 
         inventory.AddKey(keyID);
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayKey(keySound);
+
         Destroy(gameObject);
     }
 }

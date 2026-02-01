@@ -3,6 +3,7 @@ using UnityEngine;
 public class Door : MonoBehaviour
 {
     public int requiredKeyID;
+    public AudioClip doorSound;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -13,6 +14,9 @@ public class Door : MonoBehaviour
 
         if (inventory.HasKey(requiredKeyID))
         {
+            if (AudioManager.Instance != null)
+                AudioManager.Instance.PlayDoor(doorSound);
+
             Destroy(gameObject);
         }
     }

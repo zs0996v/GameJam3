@@ -3,15 +3,14 @@ using System.Collections.Generic;
 
 public class PlayerShoot : MonoBehaviour
 {
-    [Header("Bullet")]
     public GameObject bulletPrefab;
     public float bulletSpeed = 12f;
     public float bulletLifeTime = 2f;
     public float bulletHitRadius = 0.15f;
-
-    [Header("Shooting")]
     public float fireRate = 0.25f;
     float nextFireTime;
+
+    public AudioClip playerBulletSound;
 
     Vector2 lastMoveDir = Vector2.right;
 
@@ -53,6 +52,9 @@ public class PlayerShoot : MonoBehaviour
         b.transform.rotation = Quaternion.Euler(0, 0, angle);
 
         bullets.Add(new BulletData { obj = b, dir = dir, alive = 0f });
+
+        if (AudioManager.Instance != null)
+            AudioManager.Instance.PlayPlayerBullet(playerBulletSound);
     }
 
     void UpdateBullets()
@@ -75,9 +77,7 @@ public class PlayerShoot : MonoBehaviour
             {
                 EnemyHealth enemyHealth = hit.GetComponent<EnemyHealth>();
                 if (enemyHealth != null)
-                {
                     enemyHealth.TakeDamage(1);
-                }
 
                 Destroy(b.obj);
                 bullets.RemoveAt(i);
