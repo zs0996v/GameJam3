@@ -1,6 +1,18 @@
 using UnityEngine;
+using System.Collections.Generic;
 
 public class PlayerInventory : MonoBehaviour
 {
-    public bool hasKey = false;
+    public List<int> keys = new List<int>();
+
+    public void AddKey(int keyID)
+    {
+        if (!keys.Contains(keyID))
+            keys.Add(keyID);
+    }
+
+    public bool HasKey(int keyID)
+    {
+        return keys.Contains(keyID);
+    }
 }
