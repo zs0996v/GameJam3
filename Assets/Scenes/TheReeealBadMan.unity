@@ -246,12 +246,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1257161}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 69.09, y: 12.87, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 47.437786, y: 13.231132, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &80751612
 GameObject:
@@ -414,6 +414,7 @@ GameObject:
   - component: {fileID: 83361260}
   - component: {fileID: 83361259}
   - component: {fileID: 83361258}
+  - component: {fileID: 83361262}
   m_Layer: 0
   m_Name: Enemy (6)
   m_TagString: Enemy
@@ -524,7 +525,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &83361261
@@ -582,6 +583,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &83361262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83361256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &93944397
 GameObject:
   m_ObjectHideFlags: 0
@@ -709,12 +723,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93944397}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 70.57, y: -0.91, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.91779, y: -0.54886794, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &160573673
 GameObject:
@@ -729,6 +743,7 @@ GameObject:
   - component: {fileID: 160573677}
   - component: {fileID: 160573676}
   - component: {fileID: 160573675}
+  - component: {fileID: 160573679}
   m_Layer: 0
   m_Name: Enemy (1)
   m_TagString: Enemy
@@ -839,7 +854,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &160573678
@@ -897,6 +912,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &160573679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 160573673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &198484608
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,6 +938,7 @@ GameObject:
   - component: {fileID: 198484612}
   - component: {fileID: 198484611}
   - component: {fileID: 198484610}
+  - component: {fileID: 198484614}
   m_Layer: 0
   m_Name: Enemy (2)
   m_TagString: Enemy
@@ -1020,7 +1049,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &198484613
@@ -1078,6 +1107,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &198484614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 198484608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &199813432
 GameObject:
   m_ObjectHideFlags: 0
@@ -1501,12 +1543,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 352638120}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 70.57, y: -8.36, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.91779, y: -7.9988675, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &360911342
 GameObject:
@@ -1713,6 +1755,7 @@ GameObject:
   - component: {fileID: 486145274}
   - component: {fileID: 486145273}
   - component: {fileID: 486145272}
+  - component: {fileID: 486145276}
   m_Layer: 0
   m_Name: Enemy (9)
   m_TagString: Enemy
@@ -1823,7 +1866,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &486145275
@@ -1881,6 +1924,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &486145276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 486145270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,7 +2476,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 762382954234996413, guid: c9122c51a35b940e484cd139613522db, type: 3}
   bulletSpeed: 10
-  bulletLifeTime: 1
+  bulletLifeTime: 0.5
   bulletHitRadius: 0.15
   fireRate: 0.1
 --- !u!114 &605889043
@@ -2450,6 +2506,7 @@ GameObject:
   - component: {fileID: 619064808}
   - component: {fileID: 619064807}
   - component: {fileID: 619064806}
+  - component: {fileID: 619064810}
   m_Layer: 0
   m_Name: Enemy (4)
   m_TagString: Enemy
@@ -2560,7 +2617,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &619064809
@@ -2618,6 +2675,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &619064810
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619064804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -2904,6 +2974,7 @@ GameObject:
   - component: {fileID: 821498319}
   - component: {fileID: 821498318}
   - component: {fileID: 821498317}
+  - component: {fileID: 821498321}
   m_Layer: 0
   m_Name: Enemy (3)
   m_TagString: Enemy
@@ -3014,7 +3085,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &821498320
@@ -3072,6 +3143,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &821498321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 821498315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &822486373
 GameObject:
   m_ObjectHideFlags: 0
@@ -3218,6 +3302,43 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833961182
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833961183}
+  m_Layer: 0
+  m_Name: Masks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &833961183
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833961182}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.65221, y: -0.36113206, z: 0.02003353}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1697276351}
+  - {fileID: 1553054219}
+  - {fileID: 1870893767}
+  - {fileID: 1257164}
+  - {fileID: 93944400}
+  - {fileID: 352638123}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &960352609
@@ -3852,6 +3973,7 @@ GameObject:
   - component: {fileID: 1343514492}
   - component: {fileID: 1343514491}
   - component: {fileID: 1343514490}
+  - component: {fileID: 1343514494}
   m_Layer: 0
   m_Name: Enemy (8)
   m_TagString: Enemy
@@ -3962,7 +4084,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &1343514493
@@ -4020,6 +4142,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1343514494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343514488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1447820056
 GameObject:
   m_ObjectHideFlags: 0
@@ -4345,6 +4480,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 11, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 12, y: -6, z: 0}
     second:
       serializedVersion: 2
@@ -4515,6 +4660,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 11, y: -5, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 26, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -4665,6 +4820,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 11, y: -4, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 26, y: -4, z: 0}
     second:
       serializedVersion: 2
@@ -4795,6 +4960,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 11, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: 26, y: -3, z: 0}
     second:
       serializedVersion: 2
@@ -4836,6 +5011,16 @@ Tilemap:
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
   - first: {x: 77, y: -3, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
+  - first: {x: 11, y: -2, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 0
@@ -7447,13 +7632,13 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 333
+  - m_RefCount: 338
     m_Data: {fileID: 11400000, guid: 95b51779d76e46e4e907d35e08126202, type: 2}
   m_TileSpriteArray:
-  - m_RefCount: 333
+  - m_RefCount: 338
     m_Data: {fileID: 21300000, guid: efd5a7b2c662e8346b825ef98b566441, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 333
+  - m_RefCount: 338
     m_Data:
       e00: 1
       e01: 0
@@ -7472,7 +7657,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 333
+  - m_RefCount: 338
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -7549,6 +7734,7 @@ GameObject:
   - component: {fileID: 1471856592}
   - component: {fileID: 1471856591}
   - component: {fileID: 1471856590}
+  - component: {fileID: 1471856594}
   m_Layer: 0
   m_Name: Enemy (5)
   m_TagString: Enemy
@@ -7659,7 +7845,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &1471856593
@@ -7717,6 +7903,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1471856594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471856588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1480192532
 GameObject:
   m_ObjectHideFlags: 0
@@ -7957,6 +8156,7 @@ GameObject:
   - component: {fileID: 1525276066}
   - component: {fileID: 1525276065}
   - component: {fileID: 1525276064}
+  - component: {fileID: 1525276068}
   m_Layer: 0
   m_Name: Enemy (7)
   m_TagString: Enemy
@@ -8067,7 +8267,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 2
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 4
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &1525276067
@@ -8125,6 +8325,19 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1525276068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1525276062}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1553054216
 GameObject:
   m_ObjectHideFlags: 0
@@ -8252,12 +8465,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1553054216}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.04, y: -2.39, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 23.38779, y: -2.028868, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1555006964
 GameObject:
@@ -8763,12 +8976,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1697276348}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 19.1, y: 11.19, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.5522099, y: 11.551131, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1764861171
 GameObject:
@@ -8931,6 +9144,7 @@ GameObject:
   - component: {fileID: 1765861246}
   - component: {fileID: 1765861245}
   - component: {fileID: 1765861244}
+  - component: {fileID: 1765861249}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Enemy
@@ -9026,7 +9240,7 @@ MonoBehaviour:
   followRange: 6
   moveSpeed: 1.5
   bulletPrefab: {fileID: 5276780593311736482, guid: f9be81cbd77814148926550a394b0188, type: 3}
-  shootRange: 0
+  shootRange: 5
   fireRate: 1
   enemyHalfSize: {x: 0.5, y: 0.5}
 --- !u!212 &1765861247
@@ -9099,6 +9313,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 698280897}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1765861249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765861243}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4129a0351fd53c94298d9de392a34751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 5
 --- !u!1 &1870893764
 GameObject:
   m_ObjectHideFlags: 0
@@ -9226,12 +9453,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1870893764}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 57.79, y: 8.91, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 36.13779, y: 9.2711315, z: -0.02003353}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 833961183}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2014203699
 GameObject:
@@ -9547,11 +9774,6 @@ SceneRoots:
   - {fileID: 311748809}
   - {fileID: 382294249}
   - {fileID: 1480192535}
-  - {fileID: 1697276351}
-  - {fileID: 1553054219}
-  - {fileID: 1870893767}
-  - {fileID: 1257164}
-  - {fileID: 93944400}
-  - {fileID: 352638123}
   - {fileID: 1555006966}
   - {fileID: 960352610}
+  - {fileID: 833961183}
